@@ -1,0 +1,23 @@
+########
+# npm
+########
+
+node_modules/
+
+########
+# JSON
+########
+
+now.json
+package-lock.json
+security-rules.json
+
+#########
+# Other
+#########
+
+build/
+base.js
+.eslintcache
+.vercel
+.netlify
