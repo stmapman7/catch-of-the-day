@@ -78,6 +78,15 @@ const fishes = {
       "With 21-25 two bite prawns in each pound, these sweet morsels are perfect for shish-kabobs.",
     price: 2250,
     status: "available"
+  },
+
+  fish10: {
+    name: "Squid (Calamari)",
+    image: "/images/squid.jpg",
+    desc:
+    "These tender squids come fresh from the Pacific and Atlantic coasts. Serve them with your favorite ethnic dish.",
+    price: 575,
+    status: "available"
   }
 };
 

@@ -25,7 +25,7 @@ class Order extends React.Component {
       return (
         <CSSTransition {...transitionOptions}>
           <li key={key}>
-            <p class="sold">Sorry, {fish ? fish.name : "fish"} is no longer available.</p>
+            <p className="sold">Sorry, {fish ? fish.name : "fish"} is no longer available.</p>
           </li>
         </CSSTransition>
       );
