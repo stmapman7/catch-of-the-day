@@ -4,6 +4,8 @@
 
 ![Menu Sample](https://github.com/stmapman7/catch-of-the-day/blob/main/src/css/images/menu-image.JPG)
 
+![Squid](https://github.com/stmapman7/catch-of-the-day/blob/main/src/css/images/squid-image.JPG)
+
 <p>An interactive menu web application for a fictitious fresh seafood market, built in React.JS, version 16.</p>
 
 <p>Based on Wes Bos's <a href="https://github.com/wesbos/React-For-Beginners-Starter-Files" target="_blank">React For Beginners</a> Course.
