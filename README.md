@@ -1,6 +1,6 @@
 #  🍤 Catch Of The Day 🐟
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e6446d90-ffcf-4b4e-b4a4-942b86c5750c/deploy-status)](https://app.netlify.com/sites/catch-of-the-day-seafood-market/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e6446d90-ffcf-4b4e-b4a4-942b86c5750c/deploy-status)](https://catch-of-the-day-seafood-market.netlify.app/)
 
 ![Menu Sample](https://github.com/stmapman7/catch-of-the-day/blob/main/src/css/images/menu-image.JPG)
 
