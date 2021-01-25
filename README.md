@@ -15,6 +15,6 @@
 <li>Implements URL routing for screen changes without a refresh.</li>
   <li>Utilizes <a href="https://firebase.google.com" target="_blank">Google Firebase</a> for authentication and web sockets.</li>
 <li>Component animations using Stylus CSS.</li>
-  <li>Deployed to the following platforms: <a href="https://vercel.com/" target="_blank">Vercel</a>, <a href="https://app.netlify.com/" target="_blank">Netlify</a>, Apache Server.</li>
+  <li>Deployed to the following platforms: <a href="https://vercel.com/" target="_blank">Vercel</a>, <a href="https://app.netlify.com/" target="_blank">Netlify</a>, <a href="http://catchoftheday.mattknits.epizy.com/" target="_blank">Apache Server.</li>
 </ul>
 </p>
