@@ -12,6 +12,7 @@
 
 <p><ul>
 <li>Built with React implementing State and Props for dynamic updating of Components.</li>
+ <li>Components were built using Babel JavaScript syntax and saved as JSX files (except for the StorePicker component which uses standard JS.)</li>
 <li>Implements URL routing for screen changes without a refresh.</li>
   <li>Utilizes <a href="https://firebase.google.com" target="_blank">Google Firebase</a> for authentication and web sockets.</li>
 <li>Component animations using Stylus CSS.</li>
