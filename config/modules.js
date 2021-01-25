@@ -13,8 +13,8 @@ const chalk = require('react-dev-utils/chalk');
 function getAdditionalModulePaths(options = {}) {
   const baseUrl = options.baseUrl;
 
-  // We need to explicitly check for null and undefined (and not a falsy value) because
-  // TypeScript treats an empty string as `.`.
+  // We need to explicitly check for null and undefined (and not a falsy value)
+  // because TypeScript treats an empty string as `.`.
   if (baseUrl == null) {
     // If there's no baseUrl set we respect NODE_PATH
     // Note that NODE_PATH is deprecated and will be removed
@@ -34,16 +34,13 @@ function getAdditionalModulePaths(options = {}) {
 
   // Allow the user set the `baseUrl` to `appSrc`.
   if (path.relative(paths.appSrc, baseUrlResolved) === '') {
-    return [paths.appSrc];
+    return [ paths.appSrc ];
   }
 
   // Otherwise, throw an error.
-  throw new Error(
-    chalk.red.bold(
+  throw new Error(chalk.red.bold(
       "Your project's `baseUrl` can only be set to `src` or `node_modules`." +
-        ' Create React App does not support other values at this time.'
-    )
-  );
+      ' Create React App does not support other values at this time.'));
 }
 
 function getModules() {
@@ -53,8 +50,7 @@ function getModules() {
 
   if (hasTsConfig && hasJsConfig) {
     throw new Error(
-      'You have both a tsconfig.json and a jsconfig.json. If you are using TypeScript please remove your jsconfig.json file.'
-    );
+        'You have both a tsconfig.json and a jsconfig.json. If you are using TypeScript please remove your jsconfig.json file.');
   }
 
   let config;
@@ -76,7 +72,7 @@ function getModules() {
   const additionalModulePaths = getAdditionalModulePaths(options);
 
   return {
-    additionalModulePaths: additionalModulePaths,
+    additionalModulePaths : additionalModulePaths,
     hasTsConfig,
   };
 }
