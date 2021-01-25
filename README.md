@@ -6,15 +6,15 @@
 
 ![Squid](https://github.com/stmapman7/catch-of-the-day/blob/main/src/css/images/squid-image.JPG)
 
-<p>An interactive menu web application for a fictitious fresh seafood market, built in React.JS, version 16.</p>
+<p>An interactive menu web application for a fictitious fresh seafood market, built using React.JS, version 16.</p>
 
 <p>Based on Wes Bos's <a href="https://github.com/wesbos/React-For-Beginners-Starter-Files" target="_blank">React For Beginners</a> Course.
 
 <p><ul>
 <li>Built with React implementing State and Props for dynamic updating of Components.</li>
 <li>Implements URL routing for screen changes without a refresh.</li>
-<li>Utilizes Google Firebase for authentication and web sockets.</li>
+  <li>Utilizes <a href="https://firebase.google.com" target="_blank">Google Firebase</a> for authentication and web sockets.</li>
 <li>Component animations using Stylus CSS.</li>
-<li>Deployed to the following platforms: Vercel, Netlify, Apache Server.</li>
+  <li>Deployed to the following platforms: <a href="https://vercel.com/" target="_blank">Vercel</a>, <a href="https://app.netlify.com/" target="_blank">Netlify</a>, Apache Server.</li>
 </ul>
 </p>
