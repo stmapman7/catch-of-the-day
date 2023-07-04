@@ -6,7 +6,7 @@
     "concurrently": "^5.3.0"
   },
   "dependencies": {
-    "@babel/core": "7.4.3",
+    "@babel/core": "7.22.6",
     "@svgr/webpack": "6.0.0",
     "@typescript-eslint/eslint-plugin": "1.6.0",
     "@typescript-eslint/parser": "1.6.0",
@@ -15,7 +15,7 @@
     "babel-jest": "^25.1.0",
     "babel-loader": "8.2.4",
     "babel-plugin-named-asset-import": "^0.3.2",
-    "babel-preset-react-app": "^9.0.0",
+    "babel-preset-react-app": "^10.0.1",
     "browserlist": "^1.0.1",
     "camelcase": "^5.2.0",
     "caniuse-lite": "^1.0.30001171",
